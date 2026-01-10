@@ -135,13 +135,19 @@ int main(){
     int primeNum;
     cout << "Enter any number: ";
     cin >> primeNum;
+
+    bool isPrime = true;
     for (int i = 2; i <= (primeNum - 1); i++){
         if (primeNum % i == 0){
-            cout << "It is not a prime number.";
+            isPrime = false;
+            break;
         }
-        else{
-            cout << "It is a prime number.";
-        }
+    }
+    if (isPrime){
+        cout << "It is a prime number." << endl;
+    }
+    else{
+        cout << "It is not a prime number." << endl;
     }
 
     return 0;

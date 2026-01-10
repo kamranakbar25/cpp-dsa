@@ -44,10 +44,10 @@ int main(){
 
 
     //  Taking user input
-    // int num;
-    // cout << "Enter any number: ";
-    // cin >> num;
-    // cout << "Number is: " << num << endl;
+    int num;
+    cout << "Enter any number: ";
+    cin >> num;
+    cout << "Number is: " << num << endl;
 
 
 
