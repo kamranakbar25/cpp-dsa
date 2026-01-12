@@ -10,5 +10,6 @@ This repository contains my C++ fundamentals and DSA practice completed during m
 - Pattern questions on loops & nested loops
 - Function
 - Function homework
+- Binary number system
 
 More topics will be added progressively.
