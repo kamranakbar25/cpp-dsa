@@ -5,11 +5,12 @@ This repository contains my C++ fundamentals and DSA practice completed during m
 ## Topics Covered
 ### Fundamental Concepts:
 - Variables, data types, operators
-- Conditional statements and loops
-- Conditional statements and loops homework
+- Conditional statements & loops
+- Conditional statements & loops homework
 - Pattern questions on loops & nested loops
 - Function
 - Function homework
 - Binary number system
+- Bitwise operators, data types & more
 
 More topics will be added progressively.
