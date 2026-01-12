@@ -13,6 +13,14 @@ int decToBin(int decNum){
     }
     return ans;
 }
+
+// Binary to decimal
+int binToDec(int binNum){
+    
+}
+
+
+
 int main(){
     cout << decToBin(50) << endl;
 
