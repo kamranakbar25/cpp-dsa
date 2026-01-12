@@ -1,4 +1,4 @@
-# C++ & DSA Practice (Winter Break)
+# C++ & DSA
 
 This repository contains my C++ fundamentals and DSA practice completed during my winter break.
 
