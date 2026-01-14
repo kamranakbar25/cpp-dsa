@@ -13,4 +13,7 @@ This repository contains my C++ fundamentals and DSA practice completed during m
 - Binary number system
 - Bitwise operators, data types & more
 
+### Array
+- Array data structure
+
 More topics will be added progressively.
