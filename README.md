@@ -14,6 +14,6 @@ This repository contains my C++ fundamentals and DSA practice completed during m
 - Bitwise operators, data types & more
 
 ### Array
-- Array data structure
+- Array Data Structure
 
 More topics will be added progressively.
