@@ -2,6 +2,15 @@
 #include<climits>
 using namespace std;
 
+
+// Pass by reference
+void changeArr(int arr[], int size){
+    cout << "In function" << endl;
+    for (int i = 0; i < size; i++){
+        arr[i] = 2 * arr[i];
+    }
+}
+
 int main(){
     int marks[5] = {99, 89, 76, 68, 93};
     double price[] = {199.99, 59.89, 100.99};
@@ -99,6 +108,16 @@ int main(){
     cout << smallestIdx << endl;
     cout << largestIdx << endl;
 
+    cout << endl;
+
+    // Pass by reference
+    int psByRfrnc[] = {1, 2, 3};
+    changeArr(psByRfrnc, 3);
+    cout << "In main\n";
+    for (int i = 0; i < 3; i++){
+        cout << psByRfrnc[i] << " ";
+    }
+    cout << endl;
 
     return 0;
 }
